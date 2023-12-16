@@ -46,7 +46,7 @@ function setup() {
   background(51);
   strokeWeight(4);
   brushColor = color(255);
-  img = loadImage('./images/CORSS.png');
+  img = loadImage('./images/allclear.png');
   imgT = loadImage('./images/TextEdit.png');
   const port = 3000 || process.env.PORT;
 
@@ -75,9 +75,7 @@ function draw() {
         background(51);
         clearAll = true;
         sendmouse(0,0,0, 0, brushColor, clearAll);
-      } else if(mouseY <= 430){ 
-        createA("https://www.geeksforgeeks.org/", "Go to GeeksforGeeks", "_self"); 
-      }
+      } 
     }
     console.log("dragged:"+ mouseY+" "+mouseX + " " + clearAll);
   }
