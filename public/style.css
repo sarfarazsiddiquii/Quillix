@@ -1,31 +1,30 @@
-/* Custom Scrollbar Design */
 ::-webkit-scrollbar {
-  width: 12px; /* Slightly wider scrollbar for better visibility */
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #e2e2e2; /* Lighter grey for a subtle look */
-  border-radius: 6px; /* Rounded corners for the track */
+  background: #b01f1f;
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #9c27b0; /* Brighter color for the thumb for contrast */
-  border-radius: 6px; /* Rounded corners for the thumb */
+  background: #c7accb;
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #673ab7; /* Darker shade when hovered for visual feedback */
+  background: #65606e;
 }
 
-/* Styling for the footer element */
 .footerr {
-  color: #ffffff; /* White color for contrast */
-  background-color: #4a148c; /* Deep purple background for a bold look */
-  padding: 10px; /* Padding for space around the text */
-  font-size: 16px; /* Slightly larger font size for better readability */
-  text-align: center; /* Center align the text */
-  position: fixed; /* Fix the footer at the bottom */
+  color: #c41111;
+  background-color: #d40f0f;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  position: fixed;
   bottom: 0;
-  width: 100%; /* Full width */
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* Subtle shadow for a lifting effect */
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
+
